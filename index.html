@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF Else Hotel</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="forms">
+            <form action="">
+                <br>
+                <label for="">Username:</label>
+                <input type="text" name="" id="username">
+                <h3 id="alert1" style="color: darkred; text-align: center;">
+                    
+                </h3>
+                <br>
+                <select name="" id="fochoice">
+                    <option value="" disabled selected>select your food</option>
+                    <option value="Briyani">Briyani</option>
+                    <option value="parotta">parotta</option>
+                    <option value="chicken rice">chicken rice</option>
+                    <option value="pizza">pizza</option>
+                    <option value="dosa">dosa</option>
+                    <option value="burger">burger</option>
+                </select>
+                <label for="" >Quantity:</label>
+                <input type="number" id="quantity">
+                <h3 id="alert2" style="color: darkred; text-align: center;">
+                    
+                </h3>
+                <br>
+                <button type="button" id="order" onclick="ordernow()">Order Now</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="container2">
+        <br>
+        <h4 id="name">
+           -- Your bill will appeare here--
+        </h4>
+        
+  
+        <table>
+            <!-- <tr>
+                <td>bill no</td>
+                <td id="bill">
+                    
+                </td>
+            </tr> -->
+            <tr>
+                <td>
+                    Foods
+                </td>
+                <td id="foods" >
+                    ----
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    quantity
+                </td>
+                <td id="Quantity">
+                    ----
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    GSt
+                </td>
+                <td id="Gst">
+                    ----
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    total price
+                </td>
+                <td id="Total">
+                    ----
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    discount price
+                </td>
+                <td id="discount">
+                    -----
+                </td>
+            </tr>
+           
+           
+        </table>
+       
+
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
